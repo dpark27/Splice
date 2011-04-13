@@ -6,7 +6,8 @@ use FileHandle;
 use File::Basename;
 use Getopt::Long;
 
-GetOptions('dir=s' => \(my $data_dir = ''));
+GetOptions('dir=s' => \(my $data_dir = ''),
+	   'all=s' => \(my $concat_all = 0));
 
 opendir(my $dh, $data_dir) || die "No such directory $data_dir";
 my @data_files = grep{ /.fastq$/ } readdir($dh);
@@ -27,7 +28,7 @@ foreach my $file(@data_files) {
 my @sort = sort keys %file_names;
 foreach my $key(@sort) {
 	my $out = FileHandle -> new;
-	
+
 	print "Now processing $key\n";	
 	if($out -> open("> $data_dir$key" . "\.fastq")) {
 		my $in_list = $file_names{ $key };
@@ -44,6 +45,28 @@ foreach my $key(@sort) {
 
 			$in -> close;
 		}	
+	}
+
+	$out -> close;
+}
+
+if($concat_all) {
+	my $out = FileHandle -> new;
+	if($out -> open("> $data_dir" . "all\.fastq")) {
+		print "Now processing all.fastq\n";
+
+		foreach my $key(@sort) {
+			my $in = FileHandle -> new;
+			if($in -> open("< $data_dir$key\.fastq")) {
+				print "File: $key.fastq\n";
+
+				while(my $line = $in -> getline) {
+					$out -> print($line);
+				}
+			}
+
+			$in -> close;
+		}
 	}
 
 	$out -> close;

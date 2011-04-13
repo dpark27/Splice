@@ -1,0 +1,1624 @@
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18486_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18486_argonne.1302416299.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:5:1332:569#0/1 (patid 426193); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:10:387:1398#0/1 (patid 816668); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:13:585:733#0/1 (patid 1085103); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:30:1129:1616#0/1 (patid 2596893); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:34:1589:941#0/1 (patid 2948150); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:43:637:1951#0/1 (patid 3650767); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:69:782:187#0/1 (patid 5464543); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:73:1500:1003#0/1 (patid 5728842); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:76:32:739#0/1 (patid 5859403); skipping read
+# reads processed: 7749699
+# reads with at least one reported alignment: 6784666 (87.55%)
+# reads that failed to align: 965033 (12.45%)
+Reported 6784666 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18486_argonne.1302416299.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18486_argonne.1302416299.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18486_argonne.1302416299.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18486_argonne.1302416299.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18486_argonne.1302416299.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18498_2_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18498_2_argonne.1302416688.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:16:1344:147#0/1 (patid 1457666); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:21:442:1863#0/1 (patid 1880169); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:46:69:255#0/1 (patid 3906345); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:50:290:430#0/1 (patid 4291403); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:68:699:545#0/1 (patid 5814745); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:76:996:1903#0/1 (patid 6544445); skipping read
+# reads processed: 8699228
+# reads with at least one reported alignment: 7818443 (89.88%)
+# reads that failed to align: 880785 (10.12%)
+Reported 7818443 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18498_2_argonne.1302416688.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18498_2_argonne.1302416688.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18498_2_argonne.1302416688.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18498_2_argonne.1302416688.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18498_2_argonne.1302416688.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18498_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18498_argonne.1302417086.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:4:1200:1425#0/1 (patid 421581); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:4:1486:1555#0/1 (patid 440567); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:6:1283:1888#0/1 (patid 661195); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:10:957:878#0/1 (patid 1112756); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:12:1668:908#0/1 (patid 1401612); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:21:313:342#0/1 (patid 2387283); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:22:1127:843#0/1 (patid 2562334); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:27:419:1811#0/1 (patid 3116625); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:44:1138:1335#0/1 (patid 5185336); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:68:859:1094#0/1 (patid 7895721); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:81:1686:1103#0/1 (patid 9455837); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:85:944:1241#0/1 (patid 9866451); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:85:1611:44#0/1 (patid 9910084); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:86:1641:1685#0/1 (patid 10026988); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:89:1272:254#0/1 (patid 10346388); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:90:69:1461#0/1 (patid 10382312); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:91:932:279#0/1 (patid 10554817); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:91:1315:293#0/1 (patid 10580520); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:95:1248:441#0/1 (patid 11036215); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:96:1486:1325#0/1 (patid 11164932); skipping read
+# reads processed: 11630601
+# reads with at least one reported alignment: 10246665 (88.10%)
+# reads that failed to align: 1383936 (11.90%)
+Reported 10246665 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18498_argonne.1302417086.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18498_argonne.1302417086.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18498_argonne.1302417086.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18498_argonne.1302417086.sorted
+[bam_sort_core] merging from 4 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18498_argonne.1302417086.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18499_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18499_argonne.1302417663.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:13:1392:1889#0/1 (patid 1394197); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:19:440:378#0/1 (patid 1992135); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:23:1712:1611#0/1 (patid 2509919); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:27:1495:1771#0/1 (patid 2934170); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:46:1440:42#0/1 (patid 4906000); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:67:119:1154#0/1 (patid 6979600); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:70:191:1396#0/1 (patid 7297090); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:78:1423:1541#0/1 (patid 8241604); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:84:230:749#0/1 (patid 8824345); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:84:1358:1787#0/1 (patid 8893732); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:89:595:1607#0/1 (patid 9369832); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:93:1689:1595#0/1 (patid 9856026); skipping read
+# reads processed: 10614370
+# reads with at least one reported alignment: 9513027 (89.62%)
+# reads that failed to align: 1101343 (10.38%)
+Reported 9513027 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18499_argonne.1302417663.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18499_argonne.1302417663.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18499_argonne.1302417663.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18499_argonne.1302417663.sorted
+[bam_sort_core] merging from 4 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18499_argonne.1302417663.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18501_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18501_argonne.1302418179.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:36:1465:888#0/1 (patid 1378897); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:37:1347:519#0/1 (patid 1423798); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:50:900:1401#0/1 (patid 1988761); skipping read
+# reads processed: 3545671
+# reads with at least one reported alignment: 3194441 (90.09%)
+# reads that failed to align: 351230 (9.91%)
+Reported 3194441 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18501_argonne.1302418179.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18501_argonne.1302418179.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18501_argonne.1302418179.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18501_argonne.1302418179.sorted
+[bam_sort_core] merging from 2 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18501_argonne.1302418179.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18502_2_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18502_2_argonne.1302418359.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:3:404:1161#0/1 (patid 186389); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:12:1556:11#0/1 (patid 997389); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:15:530:1666#0/1 (patid 1195756); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:32:1705:1209#0/1 (patid 2514237); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:33:1354:1382#0/1 (patid 2567984); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:46:1123:1144#0/1 (patid 3313116); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:49:842:1106#0/1 (patid 3447664); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:65:1535:1909#0/1 (patid 4303574); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:76:366:749#0/1 (patid 5033887); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:88:1374:1359#0/1 (patid 5988641); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:91:834:38#0/1 (patid 6216218); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:91:1403:836#0/1 (patid 6243451); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:94:904:775#0/1 (patid 6476563); skipping read
+# reads processed: 6988357
+# reads with at least one reported alignment: 6114731 (87.50%)
+# reads that failed to align: 873626 (12.50%)
+Reported 6114731 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18502_2_argonne.1302418359.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18502_2_argonne.1302418359.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18502_2_argonne.1302418359.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18502_2_argonne.1302418359.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18502_2_argonne.1302418359.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18502_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18502_argonne.1302418725.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:32:341:321#0/1 (patid 2573203); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:41:1404:93#0/1 (patid 3422052); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:52:644:459#0/1 (patid 4365922); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:82:680:901#0/1 (patid 6906165); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:88:555:1284#0/1 (patid 7390090); skipping read
+# reads processed: 8344912
+# reads with at least one reported alignment: 7284810 (87.30%)
+# reads that failed to align: 1060102 (12.70%)
+Reported 7284810 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18502_argonne.1302418725.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18502_argonne.1302418725.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18502_argonne.1302418725.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18502_argonne.1302418725.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18502_argonne.1302418725.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18504_2_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18504_2_argonne.1302419172.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:3:7:394:1707#0/1 (patid 539593); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:3:9:1740:541#0/1 (patid 795661); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:3:28:369:252#0/1 (patid 2430682); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:3:35:936:188#0/1 (patid 3070277); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:3:55:1340:827#0/1 (patid 4735280); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:3:71:414:1508#0/1 (patid 5881975); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:3:99:790:1167#0/1 (patid 8106523); skipping read
+# reads processed: 8197125
+# reads with at least one reported alignment: 7213782 (88.00%)
+# reads that failed to align: 983343 (12.00%)
+Reported 7213782 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18504_2_argonne.1302419172.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18504_2_argonne.1302419172.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18504_2_argonne.1302419172.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18504_2_argonne.1302419172.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18504_2_argonne.1302419172.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18504_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18504_argonne.1302419584.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:1:47:524:1178#0/1 (patid 2357568); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:1:48:636:243#0/1 (patid 2447946); skipping read
+# reads processed: 5363063
+# reads with at least one reported alignment: 4512745 (84.14%)
+# reads that failed to align: 850318 (15.86%)
+Reported 4512745 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18504_argonne.1302419584.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18504_argonne.1302419584.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18504_argonne.1302419584.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18504_argonne.1302419584.sorted
+[bam_sort_core] merging from 2 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18504_argonne.1302419584.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18505_2_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18505_2_argonne.1302419902.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:8:1552:1396#0/1 (patid 687635); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:18:1110:1540#0/1 (patid 1540876); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:21:898:771#0/1 (patid 1785725); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:30:201:606#0/1 (patid 2482271); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:30:697:1452#0/1 (patid 2505232); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:39:824:895#0/1 (patid 3166086); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:42:1375:856#0/1 (patid 3382884); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:50:1745:1141#0/1 (patid 3919546); skipping read
+# reads processed: 7950616
+# reads with at least one reported alignment: 7137563 (89.77%)
+# reads that failed to align: 813053 (10.23%)
+Reported 7137563 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18505_2_argonne.1302419902.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18505_2_argonne.1302419902.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18505_2_argonne.1302419902.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18505_2_argonne.1302419902.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18505_2_argonne.1302419902.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18505_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18505_argonne.1302420303.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:23:167:1473#0/1 (patid 1501329); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:24:111:981#0/1 (patid 1568682); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:32:695:1554#0/1 (patid 2187680); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:58:1627:951#0/1 (patid 4264989); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:82:962:977#0/1 (patid 5932407); skipping read
+# reads processed: 7132811
+# reads with at least one reported alignment: 6399115 (89.71%)
+# reads that failed to align: 733696 (10.29%)
+Reported 6399115 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18505_argonne.1302420303.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18505_argonne.1302420303.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18505_argonne.1302420303.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18505_argonne.1302420303.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18505_argonne.1302420303.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18507_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18507_argonne.1302420670.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:5:1071:1524#0/1 (patid 399353); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:11:730:698#0/1 (patid 937862); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:28:1502:617#0/1 (patid 2532932); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:40:1409:27#0/1 (patid 3615152); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:41:1458:788#0/1 (patid 3705125); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:62:185:1283#0/1 (patid 5210568); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:81:1133:1322#0/1 (patid 6746114); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:86:742:1939#0/1 (patid 7166430); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:97:855:1300#0/1 (patid 8118457); skipping read
+# reads processed: 8330364
+# reads with at least one reported alignment: 7323205 (87.91%)
+# reads that failed to align: 1007159 (12.09%)
+Reported 7323205 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18507_argonne.1302420670.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18507_argonne.1302420670.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18507_argonne.1302420670.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18507_argonne.1302420670.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18507_argonne.1302420670.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18508_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18508_argonne.1302421086.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:5:1745:589#0/1 (patid 349137); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:22:597:142#0/1 (patid 1742465); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:32:714:804#0/1 (patid 2644931); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:66:1114:180#0/1 (patid 5574268); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:70:1028:1442#0/1 (patid 5924222); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:92:696:511#0/1 (patid 7799348); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:97:351:1533#0/1 (patid 8186022); skipping read
+# reads processed: 8454404
+# reads with at least one reported alignment: 7461848 (88.26%)
+# reads that failed to align: 992556 (11.74%)
+Reported 7461848 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18508_argonne.1302421086.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18508_argonne.1302421086.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18508_argonne.1302421086.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18508_argonne.1302421086.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18508_argonne.1302421086.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18510_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18510_argonne.1302421493.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:19:181:70#0/1 (patid 878642); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:29:750:690#0/1 (patid 1666878); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:37:578:163#0/1 (patid 2290759); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:69:665:808#0/1 (patid 4500428); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:98:189:1099#0/1 (patid 6290039); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:99:658:743#0/1 (patid 6331740); skipping read
+# reads processed: 6373677
+# reads with at least one reported alignment: 5625819 (88.27%)
+# reads that failed to align: 747858 (11.73%)
+Reported 5625819 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18510_argonne.1302421493.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18510_argonne.1302421493.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18510_argonne.1302421493.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18510_argonne.1302421493.sorted
+[bam_sort_core] merging from 2 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18510_argonne.1302421493.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18511_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18511_argonne.1302421803.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:1:1:358:490#0/1 (patid 20071); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:1:2:1708:361#0/1 (patid 191066); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:1:34:1478:2014#0/1 (patid 3168262); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:1:51:976:1105#0/1 (patid 4609548); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:1:73:1355:235#0/1 (patid 6546157); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:1:80:481:1895#0/1 (patid 7112421); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:1:99:1156:784#0/1 (patid 8840764); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:1:100:789:551#0/1 (patid 8912019); skipping read
+# reads processed: 8968585
+# reads with at least one reported alignment: 8005032 (89.26%)
+# reads that failed to align: 963553 (10.74%)
+Reported 8005032 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18511_argonne.1302421803.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18511_argonne.1302421803.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18511_argonne.1302421803.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18511_argonne.1302421803.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18511_argonne.1302421803.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18516_2_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18516_2_argonne.1302422231.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:50:734:1842#0/1 (patid 4423598); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:68:908:2028#0/1 (patid 6140394); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:70:1071:937#0/1 (patid 6341099); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:71:804:1838#0/1 (patid 6422834); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:97:1022:1060#0/1 (patid 8837169); skipping read
+# reads processed: 9088080
+# reads with at least one reported alignment: 8132718 (89.49%)
+# reads that failed to align: 955362 (10.51%)
+Reported 8132718 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18516_2_argonne.1302422231.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18516_2_argonne.1302422231.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18516_2_argonne.1302422231.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18516_2_argonne.1302422231.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18516_2_argonne.1302422231.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18516_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18516_argonne.1302422647.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:36:110:1808#0/1 (patid 1027146); skipping read
+# reads processed: 5528980
+# reads with at least one reported alignment: 4927239 (89.12%)
+# reads that failed to align: 601741 (10.88%)
+Reported 4927239 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18516_argonne.1302422647.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18516_argonne.1302422647.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18516_argonne.1302422647.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18516_argonne.1302422647.sorted
+[bam_sort_core] merging from 2 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18516_argonne.1302422647.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18517_2_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18517_2_argonne.1302422927.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:4:520:1012#0/1 (patid 322800); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:14:812:356#0/1 (patid 1313742); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:19:1472:1694#0/1 (patid 1829546); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:22:316:1271#0/1 (patid 2047956); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:56:427:172#0/1 (patid 5010139); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:57:1588:1240#0/1 (patid 5158103); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:58:1197:992#0/1 (patid 5228913); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:74:820:1264#0/1 (patid 6618444); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:74:1334:951#0/1 (patid 6646390); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:80:181:1262#0/1 (patid 7132436); skipping read
+# reads processed: 9127309
+# reads with at least one reported alignment: 8066926 (88.38%)
+# reads that failed to align: 1060383 (11.62%)
+Reported 8066926 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18517_2_argonne.1302422927.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18517_2_argonne.1302422927.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18517_2_argonne.1302422927.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18517_2_argonne.1302422927.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18517_2_argonne.1302422927.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18517_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18517_argonne.1302423367.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:2:911:641#0/1 (patid 157203); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:8:1133:302#0/1 (patid 787381); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:22:1160:87#0/1 (patid 2257296); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:55:1607:1014#0/1 (patid 5585783); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:56:298:391#0/1 (patid 5611720); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:61:798:150#0/1 (patid 6040521); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:76:362:1749#0/1 (patid 7518297); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:79:284:1633#0/1 (patid 7828079); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:94:1628:1831#0/1 (patid 9508182); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:96:1096:1625#0/1 (patid 9689064); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:99:383:1615#0/1 (patid 9931880); skipping read
+# reads processed: 10116924
+# reads with at least one reported alignment: 9045797 (89.41%)
+# reads that failed to align: 1071127 (10.59%)
+Reported 9045797 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18517_argonne.1302423367.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18517_argonne.1302423367.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18517_argonne.1302423367.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18517_argonne.1302423367.sorted
+[bam_sort_core] merging from 4 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18517_argonne.1302423367.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18519_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18519_argonne.1302423835.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:25:612:67#0/1 (patid 2058035); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:30:982:1083#0/1 (patid 2535002); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:52:526:235#0/1 (patid 4459115); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:69:1312:323#0/1 (patid 5968032); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:87:674:384#0/1 (patid 7533356); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:92:10:1416#0/1 (patid 7921651); skipping read
+# reads processed: 8634607
+# reads with at least one reported alignment: 7666809 (88.79%)
+# reads that failed to align: 967798 (11.21%)
+Reported 7666809 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18519_argonne.1302423835.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18519_argonne.1302423835.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18519_argonne.1302423835.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18519_argonne.1302423835.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18519_argonne.1302423835.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18520_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18520_argonne.1302424247.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:18:242:1427#0/1 (patid 1613857); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:66:933:1401#0/1 (patid 6103304); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:83:411:353#0/1 (patid 7614389); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:90:629:57#0/1 (patid 8258674); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:94:1715:32#0/1 (patid 8674562); skipping read
+# reads processed: 9176125
+# reads with at least one reported alignment: 8260443 (90.02%)
+# reads that failed to align: 915682 (9.98%)
+Reported 8260443 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18520_argonne.1302424247.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18520_argonne.1302424247.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18520_argonne.1302424247.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18520_argonne.1302424247.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18520_argonne.1302424247.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18522_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18522_argonne.1302424667.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:22:209:1716#0/1 (patid 1861563); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:22:1041:393#0/1 (patid 1912940); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:70:953:986#0/1 (patid 6298339); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:84:590:1067#0/1 (patid 7844096); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:94:1013:1106#0/1 (patid 8986440); skipping read
+# reads processed: 9185184
+# reads with at least one reported alignment: 8156951 (88.81%)
+# reads that failed to align: 1028233 (11.19%)
+Reported 8156951 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18522_argonne.1302424667.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18522_argonne.1302424667.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18522_argonne.1302424667.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18522_argonne.1302424667.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18522_argonne.1302424667.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18523_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18523_argonne.1302425105.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:2:1371:1747#0/1 (patid 144762); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:10:1377:1590#0/1 (patid 769133); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:24:1077:1358#0/1 (patid 1630474); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:27:885:1789#0/1 (patid 1812095); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:75:1752:879#0/1 (patid 4612776); skipping read
+# reads processed: 5919358
+# reads with at least one reported alignment: 5021004 (84.82%)
+# reads that failed to align: 898354 (15.18%)
+Reported 5021004 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18523_argonne.1302425105.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18523_argonne.1302425105.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18523_argonne.1302425105.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18523_argonne.1302425105.sorted
+[bam_sort_core] merging from 2 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18523_argonne.1302425105.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18852_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18852_argonne.1302425414.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:4:487:1139#0/1 (patid 135578); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:10:1135:1616#0/1 (patid 435075); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:19:1187:1969#0/1 (patid 970539); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:45:1779:680#0/1 (patid 2691541); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:54:114:185#0/1 (patid 3012707); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:71:1154:645#0/1 (patid 3985086); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:78:1042:473#0/1 (patid 4453414); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:92:408:1870#0/1 (patid 5265796); skipping read
+# reads processed: 5649346
+# reads with at least one reported alignment: 4968269 (87.94%)
+# reads that failed to align: 681077 (12.06%)
+Reported 4968269 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18852_argonne.1302425414.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18852_argonne.1302425414.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18852_argonne.1302425414.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18852_argonne.1302425414.sorted
+[bam_sort_core] merging from 2 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18852_argonne.1302425414.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18853_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18853_argonne.1302425692.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:9:1130:1039#0/1 (patid 856155); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:16:1194:218#0/1 (patid 1538672); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:27:1446:1013#0/1 (patid 2596248); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:28:1357:142#0/1 (patid 2687986); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:40:318:42#0/1 (patid 3764751); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:50:588:1192#0/1 (patid 4688094); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:64:743:1068#0/1 (patid 6025248); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:68:43:455#0/1 (patid 6371900); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:71:1194:1483#0/1 (patid 6724994); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:71:1790:1521#0/1 (patid 6757789); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:80:307:1135#0/1 (patid 7559520); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:87:1288:993#0/1 (patid 8310758); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:87:1404:730#0/1 (patid 8317343); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:87:1757:801#0/1 (patid 8337528); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:88:34:387#0/1 (patid 8340895); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:94:330:161#0/1 (patid 8961820); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:94:1091:607#0/1 (patid 9004665); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:99:135:455#0/1 (patid 9454652); skipping read
+# reads processed: 9648196
+# reads with at least one reported alignment: 8774167 (90.94%)
+# reads that failed to align: 874029 (9.06%)
+Reported 8774167 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18853_argonne.1302425692.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18853_argonne.1302425692.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18853_argonne.1302425692.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18853_argonne.1302425692.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18853_argonne.1302425692.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18855_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18855_argonne.1302426139.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:3:696:1452#0/1 (patid 120917); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:7:1350:1608#0/1 (patid 355913); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:11:968:1417#0/1 (patid 591970); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:21:417:1666#0/1 (patid 1310017); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:27:1170:1438#0/1 (patid 1835363); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:30:466:548#0/1 (patid 2050305); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:39:1542:148#0/1 (patid 2803968); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:51:180:1228#0/1 (patid 3487931); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:55:804:138#0/1 (patid 3722360); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:61:1338:1310#0/1 (patid 4136129); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:63:735:1087#0/1 (patid 4256242); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:66:1140:1990#0/1 (patid 4497145); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:74:996:1779#0/1 (patid 5127700); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:85:955:346#0/1 (patid 6000945); skipping read
+# reads processed: 6928515
+# reads with at least one reported alignment: 5856356 (84.53%)
+# reads that failed to align: 1072159 (15.47%)
+Reported 5856356 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18855_argonne.1302426139.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18855_argonne.1302426139.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18855_argonne.1302426139.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18855_argonne.1302426139.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18855_argonne.1302426139.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18856_2_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18856_2_argonne.1302426502.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:39:972:831#0/1 (patid 2467571); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:63:283:1313#0/1 (patid 3547626); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:70:871:1656#0/1 (patid 3973029); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:75:1003:467#0/1 (patid 4298304); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:90:1281:505#0/1 (patid 5345355); skipping read
+# reads processed: 6087872
+# reads with at least one reported alignment: 5375200 (88.29%)
+# reads that failed to align: 712672 (11.71%)
+Reported 5375200 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18856_2_argonne.1302426502.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18856_2_argonne.1302426502.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18856_2_argonne.1302426502.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18856_2_argonne.1302426502.sorted
+[bam_sort_core] merging from 2 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18856_2_argonne.1302426502.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18856_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18856_argonne.1302426802.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:1:65:1058:421#0/1 (patid 762627); skipping read
+# reads processed: 1256211
+# reads with at least one reported alignment: 1116709 (88.90%)
+# reads that failed to align: 139502 (11.10%)
+Reported 1116709 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18856_argonne.1302426802.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18856_argonne.1302426802.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18856_argonne.1302426802.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18856_argonne.1302426802.sorted
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18856_argonne.1302426802.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18858_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18858_argonne.1302426870.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:1:89:616:1578#0/1 (patid 7085671); skipping read
+# reads processed: 7917503
+# reads with at least one reported alignment: 7031775 (88.81%)
+# reads that failed to align: 885728 (11.19%)
+Reported 7031775 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18858_argonne.1302426870.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18858_argonne.1302426870.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18858_argonne.1302426870.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18858_argonne.1302426870.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18858_argonne.1302426870.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18859_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18859_argonne.1302427237.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:4:1520:1777#0/1 (patid 495201); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:5:1116:603#0/1 (patid 594204); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:10:813:874#0/1 (patid 1211383); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:15:1518:1096#0/1 (patid 1893673); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:18:297:1562#0/1 (patid 2178656); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:22:1637:1510#0/1 (patid 2763578); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:35:549:1561#0/1 (patid 4228644); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:40:91:924#0/1 (patid 4772899); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:40:1559:160#0/1 (patid 4868069); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:46:1378:1942#0/1 (patid 5525175); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:51:114:282#0/1 (patid 5997120); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:56:1211:200#0/1 (patid 6651075); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:57:1214:859#0/1 (patid 6768943); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:60:1567:1187#0/1 (patid 7148595); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:60:1568:696#0/1 (patid 7148634); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:62:1106:2003#0/1 (patid 7357566); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:65:156:1868#0/1 (patid 7654893); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:69:1711:1224#0/1 (patid 8255510); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:70:343:367#0/1 (patid 8284368); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:70:515:1939#0/1 (patid 8296482); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:71:609:791#0/1 (patid 8427608); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:74:834:198#0/1 (patid 8821078); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:77:587:805#0/1 (patid 9184462); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:77:1288:109#0/1 (patid 9235197); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:79:94:805#0/1 (patid 9405086); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:81:316:2036#0/1 (patid 9678568); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:85:754:1096#0/1 (patid 10228702); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:89:135:22#0/1 (patid 10707273); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:93:268:1535#0/1 (patid 11244366); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:95:1022:373#0/1 (patid 11566505); skipping read
+# reads processed: 12279759
+# reads with at least one reported alignment: 10666240 (86.86%)
+# reads that failed to align: 1613519 (13.14%)
+Reported 10666240 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18859_argonne.1302427237.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18859_argonne.1302427237.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18859_argonne.1302427237.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18859_argonne.1302427237.sorted
+[bam_sort_core] merging from 4 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18859_argonne.1302427237.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18861_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18861_argonne.1302427836.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:5:1201:1372#0/1 (patid 427810); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:6:772:336#0/1 (patid 496629); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:19:305:1734#0/1 (patid 1652605); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:21:1042:1520#0/1 (patid 1867310); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:42:1351:1853#0/1 (patid 3738487); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:44:1075:284#0/1 (patid 3895304); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:46:1674:413#0/1 (patid 4102990); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:49:1548:695#0/1 (patid 4357884); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:53:217:1657#0/1 (patid 4625493); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:66:5:1599#0/1 (patid 5699855); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:67:832:1865#0/1 (patid 5811359); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:71:1037:840#0/1 (patid 6151326); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:74:587:1037#0/1 (patid 6382033); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:95:1736:1520#0/1 (patid 8260214); skipping read
+# reads processed: 8705183
+# reads with at least one reported alignment: 7745500 (88.98%)
+# reads that failed to align: 959683 (11.02%)
+Reported 7745500 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18861_argonne.1302427836.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18861_argonne.1302427836.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18861_argonne.1302427836.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18861_argonne.1302427836.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18861_argonne.1302427836.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18862_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18862_argonne.1302428251.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:2:827:740#0/1 (patid 145385); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:3:1053:1699#0/1 (patid 256801); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:3:1488:1702#0/1 (patid 280475); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:4:271:999#0/1 (patid 311488); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:14:200:250#0/1 (patid 1284217); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:15:270:144#0/1 (patid 1385818); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:17:1075:1080#0/1 (patid 1621666); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:25:945:262#0/1 (patid 2363103); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:34:770:846#0/1 (patid 3172250); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:40:1434:477#0/1 (patid 3754358); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:43:891:862#0/1 (patid 3994327); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:48:1390:191#0/1 (patid 4465999); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:54:1548:1620#0/1 (patid 5023586); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:56:1115:1262#0/1 (patid 5186388); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:62:741:1589#0/1 (patid 5724195); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:63:1653:1919#0/1 (patid 5864414); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:66:322:33#0/1 (patid 6071697); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:72:440:402#0/1 (patid 6630356); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:79:1493:435#0/1 (patid 7351061); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:80:63:695#0/1 (patid 7369732); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:83:1758:1696#0/1 (patid 7750418); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:86:1067:108#0/1 (patid 8005948); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:90:1515:1575#0/1 (patid 8424201); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:91:759:1313#0/1 (patid 8480493); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:93:1319:743#0/1 (patid 8709585); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:95:889:1128#0/1 (patid 8885179); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:100:126:1198#0/1 (patid 9342467); skipping read
+# reads processed: 9436367
+# reads with at least one reported alignment: 8458287 (89.63%)
+# reads that failed to align: 978080 (10.37%)
+Reported 8458287 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18862_argonne.1302428251.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18862_argonne.1302428251.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18862_argonne.1302428251.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18862_argonne.1302428251.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18862_argonne.1302428251.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18870_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18870_argonne.1302428698.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:6:159:966#0/1 (patid 173349); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:13:1307:1236#0/1 (patid 557340); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:20:1586:1933#0/1 (patid 1023408); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:22:82:620#0/1 (patid 1102574); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:25:1527:1092#0/1 (patid 1366970); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:34:1050:122#0/1 (patid 1987836); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:66:751:1569#0/1 (patid 4006865); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:76:752:1845#0/1 (patid 4688522); skipping read
+# reads processed: 6042345
+# reads with at least one reported alignment: 5291471 (87.57%)
+# reads that failed to align: 750874 (12.43%)
+Reported 5291471 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18870_argonne.1302428698.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18870_argonne.1302428698.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18870_argonne.1302428698.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18870_argonne.1302428698.sorted
+[bam_sort_core] merging from 2 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18870_argonne.1302428698.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18871_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18871_argonne.1302428997.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:1:32:1409:2026#0/1 (patid 2265684); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:1:37:1601:88#0/1 (patid 2679689); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:1:55:396:2040#0/1 (patid 3860460); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:1:60:873:1777#0/1 (patid 4201440); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:1:73:1161:1165#0/1 (patid 5120771); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:1:77:156:364#0/1 (patid 5364668); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:1:98:976:1040#0/1 (patid 7029463); skipping read
+# reads processed: 7201594
+# reads with at least one reported alignment: 6313716 (87.67%)
+# reads that failed to align: 887878 (12.33%)
+Reported 6313716 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18871_argonne.1302428997.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18871_argonne.1302428997.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18871_argonne.1302428997.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18871_argonne.1302428997.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18871_argonne.1302428997.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18909_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18909_argonne.1302429348.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:1:7:1585:1523#0/1 (patid 656430); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:1:18:1593:889#0/1 (patid 1761842); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:1:31:1649:1261#0/1 (patid 3078401); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:1:45:69:1796#0/1 (patid 4379478); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:1:66:1227:334#0/1 (patid 6418864); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:1:69:838:1286#0/1 (patid 6693932); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:1:72:1533:440#0/1 (patid 7028592); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:1:84:1071:1014#0/1 (patid 8179591); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:1:88:967:378#0/1 (patid 8540290); skipping read
+# reads processed: 9798209
+# reads with at least one reported alignment: 8737840 (89.18%)
+# reads that failed to align: 1060369 (10.82%)
+Reported 8737840 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18909_argonne.1302429348.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18909_argonne.1302429348.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18909_argonne.1302429348.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18909_argonne.1302429348.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18909_argonne.1302429348.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18912_2_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18912_2_argonne.1302429809.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:5:531:1694#0/1 (patid 375428); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:7:1144:1348#0/1 (patid 573201); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:8:647:1619#0/1 (patid 629188); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:13:755:312#0/1 (patid 1031477); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:21:448:701#0/1 (patid 1598527); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:38:978:524#0/1 (patid 2890138); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:39:236:510#0/1 (patid 2934356); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:50:528:1207#0/1 (patid 3726981); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:51:1703:732#0/1 (patid 3841282); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:69:902:1289#0/1 (patid 4969061); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:74:923:1274#0/1 (patid 5257642); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:78:175:512#0/1 (patid 5458451); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:88:98:1596#0/1 (patid 6017633); skipping read
+# reads processed: 6848584
+# reads with at least one reported alignment: 6132823 (89.55%)
+# reads that failed to align: 715761 (10.45%)
+Reported 6132823 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18912_2_argonne.1302429809.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18912_2_argonne.1302429809.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18912_2_argonne.1302429809.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18912_2_argonne.1302429809.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18912_2_argonne.1302429809.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18912_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18912_argonne.1302430133.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:23:1281:906#0/1 (patid 1018887); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:77:1137:1034#0/1 (patid 3354386); skipping read
+# reads processed: 3996364
+# reads with at least one reported alignment: 3737520 (93.52%)
+# reads that failed to align: 258844 (6.48%)
+Reported 3737520 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18912_argonne.1302430133.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18912_argonne.1302430133.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18912_argonne.1302430133.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18912_argonne.1302430133.sorted
+[bam_sort_core] merging from 2 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18912_argonne.1302430133.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18913_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18913_argonne.1302430306.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:8:765:1914#0/1 (patid 540835); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:17:217:6#0/1 (patid 1166045); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:41:873:1497#0/1 (patid 3153491); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:55:1299:332#0/1 (patid 4457346); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:62:846:1833#0/1 (patid 5093283); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:66:1763:471#0/1 (patid 5504476); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:82:1009:778#0/1 (patid 6852224); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:87:1190:1292#0/1 (patid 7276545); skipping read
+# reads processed: 8291212
+# reads with at least one reported alignment: 7289885 (87.92%)
+# reads that failed to align: 1001327 (12.08%)
+Reported 7289885 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18913_argonne.1302430306.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18913_argonne.1302430306.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18913_argonne.1302430306.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18913_argonne.1302430306.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18913_argonne.1302430306.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA18916_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18916_argonne.1302430710.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:16:141:812#0/1 (patid 1354264); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:48:121:219#0/1 (patid 3608413); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:56:932:2000#0/1 (patid 4267265); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:78:1024:751#0/1 (patid 6121482); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:80:253:405#0/1 (patid 6257617); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:86:512:143#0/1 (patid 6803672); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:88:1114:1650#0/1 (patid 7016120); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:98:1297:574#0/1 (patid 7953025); skipping read
+# reads processed: 8167882
+# reads with at least one reported alignment: 7138841 (87.40%)
+# reads that failed to align: 1029041 (12.60%)
+Reported 7138841 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18916_argonne.1302430710.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18916_argonne.1302430710.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18916_argonne.1302430710.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18916_argonne.1302430710.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA18916_argonne.1302430710.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19092_2_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19092_2_argonne.1302431112.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:5:888:1141#0/1 (patid 619495); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:28:1248:1166#0/1 (patid 3658261); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:30:1720:604#0/1 (patid 3949327); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:40:420:78#0/1 (patid 5122720); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:46:1267:455#0/1 (patid 5934577); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:52:1450:335#0/1 (patid 6685788); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:63:794:79#0/1 (patid 7987869); skipping read
+# reads processed: 12762642
+# reads with at least one reported alignment: 11022159 (86.36%)
+# reads that failed to align: 1740483 (13.64%)
+Reported 11022159 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19092_2_argonne.1302431112.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19092_2_argonne.1302431112.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19092_2_argonne.1302431112.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19092_2_argonne.1302431112.sorted
+[bam_sort_core] merging from 4 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19092_2_argonne.1302431112.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19093_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19093_argonne.1302431742.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:5:1387:1011#0/1 (patid 553134); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:17:1369:824#0/1 (patid 2010257); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:19:1615:993#0/1 (patid 2271324); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:27:487:1111#0/1 (patid 3163682); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:34:1397:1710#0/1 (patid 4061580); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:35:1207:407#0/1 (patid 4167073); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:53:1571:155#0/1 (patid 6147008); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:57:894:1412#0/1 (patid 6536850); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:77:126:765#0/1 (patid 8853129); skipping read
+# reads processed: 11714315
+# reads with at least one reported alignment: 10491028 (89.56%)
+# reads that failed to align: 1223287 (10.44%)
+Reported 10491028 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19093_argonne.1302431742.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19093_argonne.1302431742.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19093_argonne.1302431742.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19093_argonne.1302431742.sorted
+[bam_sort_core] merging from 4 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19093_argonne.1302431742.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19098_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19098_argonne.1302432290.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:3:1318:1715#0/1 (patid 225438); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:4:648:659#0/1 (patid 275209); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:9:138:714#0/1 (patid 672521); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:24:711:159#0/1 (patid 1948673); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:33:913:1922#0/1 (patid 2710547); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:45:1769:620#0/1 (patid 3780671); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:48:595:126#0/1 (patid 3984404); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:49:369:1810#0/1 (patid 4059942); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:55:983:1136#0/1 (patid 4552613); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:56:835:1858#0/1 (patid 4623257); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:56:1251:1063#0/1 (patid 4644286); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:88:813:64#0/1 (patid 7133295); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:89:372:1460#0/1 (patid 7193415); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:97:1169:18#0/1 (patid 7853780); skipping read
+# reads processed: 8128155
+# reads with at least one reported alignment: 7258520 (89.30%)
+# reads that failed to align: 869635 (10.70%)
+Reported 7258520 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19098_argonne.1302432290.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19098_argonne.1302432290.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19098_argonne.1302432290.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19098_argonne.1302432290.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19098_argonne.1302432290.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19099_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19099_argonne.1302432683.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:9:127:1050#0/1 (patid 802927); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:15:1401:290#0/1 (patid 1488624); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:19:1003:898#0/1 (patid 1869858); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:23:38:1600#0/1 (patid 2216249); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:27:413:1304#0/1 (patid 2616375); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:45:1567:2003#0/1 (patid 4325877); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:55:149:1584#0/1 (patid 5166172); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:55:1308:841#0/1 (patid 5228245); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:89:440:1427#0/1 (patid 8362974); skipping read
+# reads processed: 9474797
+# reads with at least one reported alignment: 8343414 (88.06%)
+# reads that failed to align: 1131383 (11.94%)
+Reported 8343414 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19099_argonne.1302432683.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19099_argonne.1302432683.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19099_argonne.1302432683.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19099_argonne.1302432683.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19099_argonne.1302432683.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19101_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19101_argonne.1302433148.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:1:15:1205:1592#0/1 (patid 628309); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:1:17:1318:1341#0/1 (patid 802250); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:1:19:1208:714#0/1 (patid 953083); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:1:22:1453:1541#0/1 (patid 1203054); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:1:33:836:793#0/1 (patid 2145150); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:1:38:1147:1127#0/1 (patid 2639206); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:1:55:1375:1105#0/1 (patid 4286451); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:1:62:868:101#0/1 (patid 4965093); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:1:77:352:536#0/1 (patid 6499486); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:1:97:959:173#0/1 (patid 8541739); skipping read
+# reads processed: 8870597
+# reads with at least one reported alignment: 7911515 (89.19%)
+# reads that failed to align: 959082 (10.81%)
+Reported 7911515 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19101_argonne.1302433148.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19101_argonne.1302433148.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19101_argonne.1302433148.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19101_argonne.1302433148.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19101_argonne.1302433148.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19102_3_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19102_3_argonne.1302433575.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:16:1108:1419#0/1 (patid 1651577); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:37:786:1166#0/1 (patid 3702152); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:57:854:757#0/1 (patid 5551513); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:74:1696:1537#0/1 (patid 7309662); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:81:800:1193#0/1 (patid 7998043); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:82:1625:1856#0/1 (patid 8154900); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:86:468:237#0/1 (patid 8516398); skipping read
+# reads processed: 10151922
+# reads with at least one reported alignment: 8925699 (87.92%)
+# reads that failed to align: 1226223 (12.08%)
+Reported 8925699 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19102_3_argonne.1302433575.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19102_3_argonne.1302433575.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19102_3_argonne.1302433575.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19102_3_argonne.1302433575.sorted
+[bam_sort_core] merging from 4 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19102_3_argonne.1302433575.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19102_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19102_argonne.1302434067.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:43:1769:766#0/1 (patid 1740072); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:57:86:538#0/1 (patid 2296294); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:92:154:77#0/1 (patid 3686773); skipping read
+# reads processed: 3989379
+# reads with at least one reported alignment: 3729526 (93.49%)
+# reads that failed to align: 259853 (6.51%)
+Reported 3729526 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19102_argonne.1302434067.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19102_argonne.1302434067.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19102_argonne.1302434067.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19102_argonne.1302434067.sorted
+[bam_sort_core] merging from 2 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19102_argonne.1302434067.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19108_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19108_argonne.1302434242.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:10:1109:300#0/1 (patid 911728); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:22:1058:538#0/1 (patid 2024390); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:34:385:827#0/1 (patid 3077874); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:61:617:622#0/1 (patid 5441478); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:67:1403:86#0/1 (patid 6006596); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:69:466:1026#0/1 (patid 6133245); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:78:144:900#0/1 (patid 6923739); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:84:846:69#0/1 (patid 7509747); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:89:1472:375#0/1 (patid 8008503); skipping read
+# reads processed: 9033582
+# reads with at least one reported alignment: 8108615 (89.76%)
+# reads that failed to align: 924967 (10.24%)
+Reported 8108615 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19108_argonne.1302434242.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19108_argonne.1302434242.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19108_argonne.1302434242.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19108_argonne.1302434242.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19108_argonne.1302434242.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19114_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19114_argonne.1302434669.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:3:1783:841#0/1 (patid 274442); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:15:1232:817#0/1 (patid 1361329); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:19:654:1528#0/1 (patid 1694320); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:20:497:923#0/1 (patid 1775644); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:23:1155:792#0/1 (patid 2075343); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:24:763:1841#0/1 (patid 2138488); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:26:1133:336#0/1 (patid 2323301); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:31:565:1544#0/1 (patid 2698276); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:37:1416:1684#0/1 (patid 3243994); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:54:701:625#0/1 (patid 4529968); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:54:1503:1902#0/1 (patid 4557462); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:61:1203:1324#0/1 (patid 5065735); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:63:4:1621#0/1 (patid 5179767); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:63:1352:1667#0/1 (patid 5238111); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:76:868:899#0/1 (patid 6376667); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:84:534:885#0/1 (patid 7103721); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:86:1203:1214#0/1 (patid 7333371); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:87:1362:768#0/1 (patid 7437695); skipping read
+# reads processed: 8677053
+# reads with at least one reported alignment: 7633883 (87.98%)
+# reads that failed to align: 1043170 (12.02%)
+Reported 7633883 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19114_argonne.1302434669.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19114_argonne.1302434669.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19114_argonne.1302434669.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19114_argonne.1302434669.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19114_argonne.1302434669.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19116_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19116_argonne.1302435079.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:4:53:1544#0/1 (patid 332375); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:10:1145:771#0/1 (patid 1065522); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:17:939:1051#0/1 (patid 1827575); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:21:1246:1729#0/1 (patid 2286487); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:26:742:1634#0/1 (patid 2802348); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:28:872:1254#0/1 (patid 3025990); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:32:957:1333#0/1 (patid 3461166); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:54:1747:1264#0/1 (patid 5810286); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:56:1749:1311#0/1 (patid 6010611); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:61:484:838#0/1 (patid 6433590); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:69:669:113#0/1 (patid 7257862); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:75:1555:1970#0/1 (patid 7920239); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:79:597:22#0/1 (patid 8274156); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:84:860:927#0/1 (patid 8802305); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:86:390:902#0/1 (patid 8981801); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:91:428:141#0/1 (patid 9503373); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:93:1181:1680#0/1 (patid 9759813); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:100:699:422#0/1 (patid 10464342); skipping read
+# reads processed: 10528137
+# reads with at least one reported alignment: 9463529 (89.89%)
+# reads that failed to align: 1064608 (10.11%)
+Reported 9463529 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19116_argonne.1302435079.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19116_argonne.1302435079.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19116_argonne.1302435079.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19116_argonne.1302435079.sorted
+[bam_sort_core] merging from 4 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19116_argonne.1302435079.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19119_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19119_argonne.1302435572.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:16:533:413#0/1 (patid 301540); skipping read
+# reads processed: 2326743
+# reads with at least one reported alignment: 2160198 (92.84%)
+# reads that failed to align: 166545 (7.16%)
+Reported 2160198 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19119_argonne.1302435572.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19119_argonne.1302435572.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19119_argonne.1302435572.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19119_argonne.1302435572.sorted
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19119_argonne.1302435572.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19127_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19127_argonne.1302435675.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:1:720:1939#0/1 (patid 39171); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:7:557:1082#0/1 (patid 557964); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:26:107:1942#0/1 (patid 2186551); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:29:1758:1490#0/1 (patid 2532228); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:33:1060:1913#0/1 (patid 2848247); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:34:602:1826#0/1 (patid 2910554); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:46:348:1615#0/1 (patid 3929921); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:56:394:810#0/1 (patid 4796696); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:57:268:1370#0/1 (patid 4877732); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:66:728:1343#0/1 (patid 5689975); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:71:709:433#0/1 (patid 6115947); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:76:922:686#0/1 (patid 6543790); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:79:641:1485#0/1 (patid 6779346); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:79:1364:582#0/1 (patid 6816223); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:84:535:1505#0/1 (patid 7196264); skipping read
+# reads processed: 8570023
+# reads with at least one reported alignment: 7723868 (90.13%)
+# reads that failed to align: 846155 (9.87%)
+Reported 7723868 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19127_argonne.1302435675.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19127_argonne.1302435675.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19127_argonne.1302435675.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19127_argonne.1302435675.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19127_argonne.1302435675.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19128_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19128_argonne.1302436076.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:9:1515:1855#0/1 (patid 872685); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:10:452:1078#0/1 (patid 911861); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:16:1071:1722#0/1 (patid 1550604); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:30:413:774#0/1 (patid 2932383); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:45:787:1582#0/1 (patid 4431425); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:61:99:522#0/1 (patid 5908017); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:65:1137:1923#0/1 (patid 6361668); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:65:1352:1499#0/1 (patid 6373630); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:74:799:1645#0/1 (patid 7253494); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:77:1667:1297#0/1 (patid 7614073); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:81:1150:1802#0/1 (patid 7999025); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:81:1458:1881#0/1 (patid 8016720); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:96:1100:1252#0/1 (patid 9542503); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:99:129:1845#0/1 (patid 9793447); skipping read
+# reads processed: 9988733
+# reads with at least one reported alignment: 9184636 (91.95%)
+# reads that failed to align: 804097 (8.05%)
+Reported 9184636 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19128_argonne.1302436076.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19128_argonne.1302436076.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19128_argonne.1302436076.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19128_argonne.1302436076.sorted
+[bam_sort_core] merging from 4 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19128_argonne.1302436076.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19130_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19130_argonne.1302436524.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:13:652:1922#0/1 (patid 1280173); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:15:1173:1871#0/1 (patid 1521146); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:19:1000:367#0/1 (patid 1934113); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:30:507:1034#0/1 (patid 3064553); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:55:970:1572#0/1 (patid 5580106); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:61:382:814#0/1 (patid 6167050); skipping read
+# reads processed: 10349515
+# reads with at least one reported alignment: 9307594 (89.93%)
+# reads that failed to align: 1041921 (10.07%)
+Reported 9307594 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19130_argonne.1302436524.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19130_argonne.1302436524.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19130_argonne.1302436524.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19130_argonne.1302436524.sorted
+[bam_sort_core] merging from 4 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19130_argonne.1302436524.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19131_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19131_argonne.1302437010.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:1:230:443#0/1 (patid 10581); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:11:1659:1829#0/1 (patid 1004094); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:85:49:2#0/1 (patid 7748412); skipping read
+# reads processed: 9200019
+# reads with at least one reported alignment: 8270047 (89.89%)
+# reads that failed to align: 929972 (10.11%)
+Reported 8270047 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19131_argonne.1302437010.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19131_argonne.1302437010.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19131_argonne.1302437010.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19131_argonne.1302437010.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19131_argonne.1302437010.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19137_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19137_argonne.1302437440.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:39:1060:990#0/1 (patid 3172442); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:41:1289:341#0/1 (patid 3330465); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:58:1396:704#0/1 (patid 4534087); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:77:487:1070#0/1 (patid 5959532); skipping read
+# reads processed: 8012428
+# reads with at least one reported alignment: 7143402 (89.15%)
+# reads that failed to align: 869026 (10.85%)
+Reported 7143402 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19137_argonne.1302437440.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19137_argonne.1302437440.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19137_argonne.1302437440.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19137_argonne.1302437440.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19137_argonne.1302437440.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19138_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19138_argonne.1302437820.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:9:732:1741#0/1 (patid 648949); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:13:1167:738#0/1 (patid 1012106); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:15:236:1864#0/1 (patid 1137563); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:47:1567:1537#0/1 (patid 4090632); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:87:422:320#0/1 (patid 7575529); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:90:1637:1105#0/1 (patid 7892865); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:100:251:1903#0/1 (patid 8626583); skipping read
+# reads processed: 8690202
+# reads with at least one reported alignment: 7383214 (84.96%)
+# reads that failed to align: 1306988 (15.04%)
+Reported 7383214 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19138_argonne.1302437820.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19138_argonne.1302437820.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19138_argonne.1302437820.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19138_argonne.1302437820.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19138_argonne.1302437820.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19140_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19140_argonne.1302438278.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:1:5:53:1775#0/1 (patid 255704); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:1:7:61:462#0/1 (patid 397496); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:1:20:634:402#0/1 (patid 1442007); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:1:22:457:1053#0/1 (patid 1594913); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:1:25:1147:548#0/1 (patid 1875477); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:1:38:626:1675#0/1 (patid 2942189); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:1:50:377:621#0/1 (patid 3923501); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:1:64:43:142#0/1 (patid 5078594); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:1:83:445:1645#0/1 (patid 6661817); skipping read
+# reads processed: 8067824
+# reads with at least one reported alignment: 7125815 (88.32%)
+# reads that failed to align: 942009 (11.68%)
+Reported 7125815 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19140_argonne.1302438278.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19140_argonne.1302438278.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19140_argonne.1302438278.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19140_argonne.1302438278.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19140_argonne.1302438278.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19141_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19141_argonne.1302438669.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:14:910:1758#0/1 (patid 1400796); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:15:978:182#0/1 (patid 1503949); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:23:262:795#0/1 (patid 2243741); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:24:718:1678#0/1 (patid 2364460); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:28:404:534#0/1 (patid 2724529); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:34:1175:565#0/1 (patid 3318327); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:60:490:53#0/1 (patid 5625760); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:73:1269:514#0/1 (patid 6925586); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:78:648:607#0/1 (patid 7390901); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:84:557:1044#0/1 (patid 8001056); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:87:319:831#0/1 (patid 8296782); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:88:1454:1293#0/1 (patid 8468227); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:97:600:264#0/1 (patid 9378101); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:99:2:483#0/1 (patid 9559580); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:99:361:696#0/1 (patid 9581341); skipping read
+# reads processed: 9778473
+# reads with at least one reported alignment: 8629865 (88.25%)
+# reads that failed to align: 1148608 (11.75%)
+Reported 8629865 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19141_argonne.1302438669.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19141_argonne.1302438669.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19141_argonne.1302438669.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19141_argonne.1302438669.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19141_argonne.1302438669.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19143_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19143_argonne.1302439128.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:14:475:1358#0/1 (patid 1368308); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:26:1213:1605#0/1 (patid 2640224); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:30:300:1550#0/1 (patid 2994811); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:32:776:578#0/1 (patid 3223193); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:58:1359:1643#0/1 (patid 5839509); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:76:519:1344#0/1 (patid 7605353); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:83:175:1311#0/1 (patid 8290606); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:89:342:840#0/1 (patid 8915433); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:8:94:1062:1681#0/1 (patid 9468189); skipping read
+# reads processed: 10115208
+# reads with at least one reported alignment: 9133992 (90.30%)
+# reads that failed to align: 981216 (9.70%)
+Reported 9133992 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19143_argonne.1302439128.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19143_argonne.1302439128.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19143_argonne.1302439128.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19143_argonne.1302439128.sorted
+[bam_sort_core] merging from 4 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19143_argonne.1302439128.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19144_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19144_argonne.1302439587.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:3:1628:684#0/1 (patid 254569); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:12:1525:916#0/1 (patid 1037331); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:14:646:287#0/1 (patid 1163328); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:35:636:1428#0/1 (patid 3026101); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:36:1034:227#0/1 (patid 3130447); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:5:56:662:1335#0/1 (patid 4788855); skipping read
+# reads processed: 8476906
+# reads with at least one reported alignment: 7539099 (88.94%)
+# reads that failed to align: 937807 (11.06%)
+Reported 7539099 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19144_argonne.1302439587.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19144_argonne.1302439587.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19144_argonne.1302439587.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19144_argonne.1302439587.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19144_argonne.1302439587.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19147_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19147_argonne.1302439980.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:10:689:71#0/1 (patid 979726); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:10:937:209#0/1 (patid 994385); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:11:181:1906#0/1 (patid 1054870); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:11:772:728#0/1 (patid 1089326); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:15:1604:36#0/1 (patid 1554817); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:23:1379:767#0/1 (patid 2370375); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:35:484:1710#0/1 (patid 3540378); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:36:1327:1145#0/1 (patid 3688491); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:48:1520:1117#0/1 (patid 4874696); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:57:209:1986#0/1 (patid 5665139); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:57:610:1735#0/1 (patid 5687061); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:66:1519:1221#0/1 (patid 6609753); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:82:47:1755#0/1 (patid 8129697); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:84:1405:1901#0/1 (patid 8412042); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:90:1214:1464#0/1 (patid 8998046); skipping read
+# reads processed: 10054713
+# reads with at least one reported alignment: 8948233 (89.00%)
+# reads that failed to align: 1106480 (11.00%)
+Reported 8948233 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19147_argonne.1302439980.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19147_argonne.1302439980.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19147_argonne.1302439980.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19147_argonne.1302439980.sorted
+[bam_sort_core] merging from 4 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19147_argonne.1302439980.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19152_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19152_argonne.1302440441.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:3:35:325:509#0/1 (patid 3692047); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:3:39:1224:251#0/1 (patid 4177970); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:3:40:1231:911#0/1 (patid 4285137); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:3:54:117:296#0/1 (patid 5687766); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:3:68:88:625#0/1 (patid 7161915); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:3:72:616:1164#0/1 (patid 7622689); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:3:80:1686:1169#0/1 (patid 8545159); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:3:81:303:524#0/1 (patid 8568709); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:3:93:922:929#0/1 (patid 9831727); skipping read
+# reads processed: 10618007
+# reads with at least one reported alignment: 9563270 (90.07%)
+# reads that failed to align: 1054737 (9.93%)
+Reported 9563270 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19152_argonne.1302440441.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19152_argonne.1302440441.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19152_argonne.1302440441.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19152_argonne.1302440441.sorted
+[bam_sort_core] merging from 4 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19152_argonne.1302440441.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19153_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19153_argonne.1302440914.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:11:1437:915#0/1 (patid 777270); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:16:845:1615#0/1 (patid 1138548); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:33:1308:346#0/1 (patid 2432919); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:37:1528:1370#0/1 (patid 2743469); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:44:206:1565#0/1 (patid 3206330); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:47:1663:1403#0/1 (patid 3468506); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:54:562:1218#0/1 (patid 3869596); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:69:759:1257#0/1 (patid 4930216); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:74:799:363#0/1 (patid 5285418); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:85:231:1477#0/1 (patid 6037812); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:85:631:1888#0/1 (patid 6050951); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:8:92:691:699#0/1 (patid 6542042); skipping read
+# reads processed: 7125012
+# reads with at least one reported alignment: 6349805 (89.12%)
+# reads that failed to align: 775207 (10.88%)
+Reported 6349805 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19153_argonne.1302440914.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19153_argonne.1302440914.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19153_argonne.1302440914.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19153_argonne.1302440914.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19153_argonne.1302440914.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19159_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19159_argonne.1302441249.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:3:47:342:1752#0/1 (patid 3327883); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:3:47:1514:2022#0/1 (patid 3362759); skipping read
+# reads processed: 6511480
+# reads with at least one reported alignment: 5770087 (88.61%)
+# reads that failed to align: 741393 (11.39%)
+Reported 5770087 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19159_argonne.1302441249.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19159_argonne.1302441249.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19159_argonne.1302441249.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19159_argonne.1302441249.sorted
+[bam_sort_core] merging from 2 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19159_argonne.1302441249.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19160_2_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19160_2_argonne.1302441547.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:3:6:1588:1430#0/1 (patid 226213); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:3:40:733:89#0/1 (patid 2253990); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:3:44:602:1243#0/1 (patid 2449061); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:3:49:1671:1763#0/1 (patid 2670030); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:3:63:1168:911#0/1 (patid 3232211); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:3:95:1512:556#0/1 (patid 4950634); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:3:99:1753:653#0/1 (patid 5113704); skipping read
+# reads processed: 5152078
+# reads with at least one reported alignment: 4449777 (86.37%)
+# reads that failed to align: 702301 (13.63%)
+Reported 4449777 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19160_2_argonne.1302441547.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19160_2_argonne.1302441547.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19160_2_argonne.1302441547.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19160_2_argonne.1302441547.sorted
+[bam_sort_core] merging from 2 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19160_2_argonne.1302441547.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19160_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19160_argonne.1302441805.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:28:851:1903#0/1 (patid 2506201); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:30:699:975#0/1 (patid 2673796); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:32:1133:1757#0/1 (patid 2883222); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:35:1307:821#0/1 (patid 3182150); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:44:1400:1908#0/1 (patid 4030244); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:48:1608:324#0/1 (patid 4411111); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:54:1204:464#0/1 (patid 4943063); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:60:438:359#0/1 (patid 5477436); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:62:375:299#0/1 (patid 5667073); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:67:661:1054#0/1 (patid 6172690); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:67:1276:1843#0/1 (patid 6207085); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:72:1160:1172#0/1 (patid 6681675); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:74:378:1852#0/1 (patid 6814974); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:75:318:734#0/1 (patid 6899389); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:77:429:1987#0/1 (patid 7093149); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:5:92:924:635#0/1 (patid 8577821); skipping read
+# reads processed: 9208450
+# reads with at least one reported alignment: 8156011 (88.57%)
+# reads that failed to align: 1052439 (11.43%)
+Reported 8156011 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19160_argonne.1302441805.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19160_argonne.1302441805.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19160_argonne.1302441805.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19160_argonne.1302441805.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19160_argonne.1302441805.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19171_2_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19171_2_argonne.1302442223.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:62:590:614#0/1 (patid 5082583); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:74:420:1180#0/1 (patid 5836680); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:80:1450:1461#0/1 (patid 6240867); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:6:94:805:1350#0/1 (patid 7201466); skipping read
+# reads processed: 7677962
+# reads with at least one reported alignment: 6722925 (87.56%)
+# reads that failed to align: 955037 (12.44%)
+Reported 6722925 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19171_2_argonne.1302442223.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19171_2_argonne.1302442223.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19171_2_argonne.1302442223.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19171_2_argonne.1302442223.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19171_2_argonne.1302442223.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19171_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19171_argonne.1302442589.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:4:61:1216:652#0/1 (patid 1126165); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:4:84:1214:619#0/1 (patid 1765215); skipping read
+# reads processed: 2021638
+# reads with at least one reported alignment: 1806024 (89.33%)
+# reads that failed to align: 215614 (10.67%)
+Reported 1806024 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19171_argonne.1302442589.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19171_argonne.1302442589.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19171_argonne.1302442589.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19171_argonne.1302442589.sorted
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19171_argonne.1302442589.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19172_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19172_argonne.1302442685.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:1:522:241#0/1 (patid 30690); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:3:2:956#0/1 (patid 222597); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:5:1460:681#0/1 (patid 543261); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:8:1292:274#0/1 (patid 878426); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:18:851:275#0/1 (patid 2038969); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:20:41:1548#0/1 (patid 2226500); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:23:268:1256#0/1 (patid 2597626); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:28:1028:678#0/1 (patid 3246119); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:30:96:293#0/1 (patid 3422228); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:35:950:1403#0/1 (patid 4067991); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:37:1357:1319#0/1 (patid 4332089); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:52:748:933#0/1 (patid 6010509); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:68:275:1857#0/1 (patid 7804575); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:92:634:1679#0/1 (patid 10660651); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:95:1233:1104#0/1 (patid 11053393); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:98:1482:1481#0/1 (patid 11416913); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:98:1553:1929#0/1 (patid 11421480); skipping read
+# reads processed: 11662307
+# reads with at least one reported alignment: 10479241 (89.86%)
+# reads that failed to align: 1183066 (10.14%)
+Reported 10479241 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19172_argonne.1302442685.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19172_argonne.1302442685.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19172_argonne.1302442685.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19172_argonne.1302442685.sorted
+[bam_sort_core] merging from 4 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19172_argonne.1302442685.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19190_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19190_argonne.1302443208.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:20:200:1326#0/1 (patid 1741195); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:28:1383:1842#0/1 (patid 2534201); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:33:304:1835#0/1 (patid 2943545); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:34:1488:353#0/1 (patid 3100604); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:41:1763:1537#0/1 (patid 3768251); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:63:1464:2000#0/1 (patid 5751496); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:76:1078:1483#0/1 (patid 6868270); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:95:685:398#0/1 (patid 8494077); skipping read
+# reads processed: 8965588
+# reads with at least one reported alignment: 8050216 (89.79%)
+# reads that failed to align: 915372 (10.21%)
+Reported 8050216 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19190_argonne.1302443208.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19190_argonne.1302443208.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19190_argonne.1302443208.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19190_argonne.1302443208.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19190_argonne.1302443208.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19192_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19192_argonne.1302443616.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:4:650:870#0/1 (patid 278934); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:13:816:1707#0/1 (patid 999217); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:16:1297:195#0/1 (patid 1226550); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:17:1016:1569#0/1 (patid 1292663); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:23:161:292#0/1 (patid 1718531); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:28:436:153#0/1 (patid 2108968); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:29:499:1416#0/1 (patid 2187034); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:33:741:1734#0/1 (patid 2495141); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:42:577:1141#0/1 (patid 3131579); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:52:97:571#0/1 (patid 3802909); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:62:1628:1491#0/1 (patid 4598451); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:65:403:680#0/1 (patid 4771347); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:83:1632:1997#0/1 (patid 6257199); skipping read
+# reads processed: 7650417
+# reads with at least one reported alignment: 6686707 (87.40%)
+# reads that failed to align: 963710 (12.60%)
+Reported 6686707 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19192_argonne.1302443616.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19192_argonne.1302443616.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19192_argonne.1302443616.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19192_argonne.1302443616.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19192_argonne.1302443616.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19193_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19193_argonne.1302443980.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:3:373:1745#0/1 (patid 106695); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:9:965:1688#0/1 (patid 463353); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:13:1572:1157#0/1 (patid 784244); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:17:72:1319#0/1 (patid 1045049); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:18:166:857#0/1 (patid 1134049); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:19:1656:170#0/1 (patid 1292509); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:22:147:1677#0/1 (patid 1476757); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:26:1336:1030#0/1 (patid 1870420); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:28:418:1370#0/1 (patid 1987617); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:33:1412:173#0/1 (patid 2441473); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:52:897:850#0/1 (patid 3518550); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:61:249:1281#0/1 (patid 3905832); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:63:1166:1789#0/1 (patid 4047867); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:65:416:1558#0/1 (patid 4132620); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:69:406:528#0/1 (patid 4376160); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:74:91:1683#0/1 (patid 4687588); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:94:525:1383#0/1 (patid 6034843); skipping read
+# reads processed: 6340598
+# reads with at least one reported alignment: 5556604 (87.64%)
+# reads that failed to align: 783994 (12.36%)
+Reported 5556604 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19193_argonne.1302443980.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19193_argonne.1302443980.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19193_argonne.1302443980.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19193_argonne.1302443980.sorted
+[bam_sort_core] merging from 2 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19193_argonne.1302443980.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19200_2_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19200_2_argonne.1302444283.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:3:23:327:1422#0/1 (patid 1749302); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:3:71:1480:508#0/1 (patid 4897361); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:3:86:374:1613#0/1 (patid 6019277); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:3:87:1353:1231#0/1 (patid 6146554); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:3:99:908:706#0/1 (patid 7101150); skipping read
+# reads processed: 7227700
+# reads with at least one reported alignment: 6369988 (88.13%)
+# reads that failed to align: 857712 (11.87%)
+Reported 6369988 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19200_2_argonne.1302444283.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19200_2_argonne.1302444283.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19200_2_argonne.1302444283.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19200_2_argonne.1302444283.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19200_2_argonne.1302444283.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19200_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19200_argonne.1302444626.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:3:91:1045:42#0/1 (patid 2025342); skipping read
+# reads processed: 2091947
+# reads with at least one reported alignment: 1927226 (92.13%)
+# reads that failed to align: 164721 (7.87%)
+Reported 1927226 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19200_argonne.1302444626.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19200_argonne.1302444626.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19200_argonne.1302444626.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19200_argonne.1302444626.sorted
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19200_argonne.1302444626.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19201_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19201_argonne.1302444718.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:9:856:1589#0/1 (patid 762396); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:34:696:1144#0/1 (patid 2990690); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:34:1185:1660#0/1 (patid 3015874); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:46:860:877#0/1 (patid 4025582); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:47:1664:831#0/1 (patid 4145449); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:53:1428:782#0/1 (patid 4598549); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:6:93:1507:1027#0/1 (patid 7936862); skipping read
+# reads processed: 8540954
+# reads with at least one reported alignment: 7686578 (90.00%)
+# reads that failed to align: 854376 (10.00%)
+Reported 7686578 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19201_argonne.1302444718.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19201_argonne.1302444718.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19201_argonne.1302444718.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19201_argonne.1302444718.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19201_argonne.1302444718.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19203_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19203_argonne.1302445109.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:4:2:964:1504#0/1 (patid 154864); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:4:4:1205:1960#0/1 (patid 371382); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:4:19:1496:2041#0/1 (patid 1868799); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:4:30:461:540#0/1 (patid 2822712); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:4:34:503:69#0/1 (patid 3211157); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:4:44:120:1035#0/1 (patid 4023811); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:4:62:947:1787#0/1 (patid 5604609); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:4:67:824:8#0/1 (patid 6044647); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:4:91:1602:30#0/1 (patid 8442487); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:4:94:1730:1442#0/1 (patid 8750794); skipping read
+# reads processed: 9338220
+# reads with at least one reported alignment: 8302136 (88.90%)
+# reads that failed to align: 1036084 (11.10%)
+Reported 8302136 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19203_argonne.1302445109.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19203_argonne.1302445109.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19203_argonne.1302445109.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19203_argonne.1302445109.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19203_argonne.1302445109.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19204_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19204_argonne.1302445540.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:30:1130:654#0/1 (patid 2781625); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:36:476:1533#0/1 (patid 3296086); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:58:257:409#0/1 (patid 5092938); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:59:184:1217#0/1 (patid 5169951); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:64:1657:206#0/1 (patid 5659052); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:86:547:587#0/1 (patid 7311203); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:97:1728:1775#0/1 (patid 8256044); skipping read
+# reads processed: 8512123
+# reads with at least one reported alignment: 7542958 (88.61%)
+# reads that failed to align: 969165 (11.39%)
+Reported 7542958 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19204_argonne.1302445540.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19204_argonne.1302445540.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19204_argonne.1302445540.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19204_argonne.1302445540.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19204_argonne.1302445540.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19206_2_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19206_2_argonne.1302445934.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:18:1051:1361#0/1 (patid 1999674); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:19:1164:1010#0/1 (patid 2116499); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:20:363:1806#0/1 (patid 2174572); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:21:195:1784#0/1 (patid 2273732); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:23:734:920#0/1 (patid 2522793); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:29:1708:512#0/1 (patid 3221318); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:33:1387:1038#0/1 (patid 3616911); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:38:525:1768#0/1 (patid 4074886); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:42:797:1423#0/1 (patid 4492134); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:49:858:611#0/1 (patid 5184058); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:55:1319:1704#0/1 (patid 5803264); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:56:1302:163#0/1 (patid 5902410); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:58:1420:1543#0/1 (patid 6110608); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:59:206:610#0/1 (patid 6142237); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:65:1348:1758#0/1 (patid 6825186); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:72:215:997#0/1 (patid 7496720); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:82:433:609#0/1 (patid 8600439); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:86:773:1108#0/1 (patid 9072488); skipping read
+# reads processed: 10756275
+# reads with at least one reported alignment: 9096324 (84.57%)
+# reads that failed to align: 1659951 (15.43%)
+Reported 9096324 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19206_2_argonne.1302445934.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19206_2_argonne.1302445934.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19206_2_argonne.1302445934.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19206_2_argonne.1302445934.sorted
+[bam_sort_core] merging from 4 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19206_2_argonne.1302445934.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19207_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19207_argonne.1302446479.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:30:1495:369#0/1 (patid 3216730); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:65:921:676#0/1 (patid 6719970); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:3:76:1682:940#0/1 (patid 7910344); skipping read
+# reads processed: 10454167
+# reads with at least one reported alignment: 9161479 (87.63%)
+# reads that failed to align: 1292688 (12.37%)
+Reported 9161479 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19207_argonne.1302446479.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19207_argonne.1302446479.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19207_argonne.1302446479.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19207_argonne.1302446479.sorted
+[bam_sort_core] merging from 4 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19207_argonne.1302446479.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19209_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19209_argonne.1302446973.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:6:81:859#0/1 (patid 536305); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:13:1194:790#0/1 (patid 1361241); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:19:1615:356#0/1 (patid 2042128); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:36:138:1264#0/1 (patid 3782692); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:37:48:1240#0/1 (patid 3883253); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:68:1345:718#0/1 (patid 7259258); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:81:791:1570#0/1 (patid 8626754); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:7:93:1600:355#0/1 (patid 9959723); skipping read
+# reads processed: 10706267
+# reads with at least one reported alignment: 9679028 (90.41%)
+# reads that failed to align: 1027239 (9.59%)
+Reported 9679028 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19209_argonne.1302446973.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19209_argonne.1302446973.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19209_argonne.1302446973.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19209_argonne.1302446973.sorted
+[bam_sort_core] merging from 4 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19209_argonne.1302446973.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19210_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19210_argonne.1302447449.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:8:1082:1160#0/1 (patid 661445); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:10:344:565#0/1 (patid 804996); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:23:25:1834#0/1 (patid 1958465); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:23:1666:164#0/1 (patid 2040679); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:25:1047:2024#0/1 (patid 2189488); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:25:1409:587#0/1 (patid 2207916); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:33:877:171#0/1 (patid 2860082); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:45:1782:1521#0/1 (patid 3900332); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:56:1139:1705#0/1 (patid 4703802); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:61:194:1505#0/1 (patid 5047808); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:62:1335:595#0/1 (patid 5176006); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:68:1187:1534#0/1 (patid 5673218); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:70:1395:1657#0/1 (patid 5855579); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:73:1109:51#0/1 (patid 6092967); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:73:1359:1722#0/1 (patid 6105771); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:76:1661:1736#0/1 (patid 6374833); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:76:1682:141#0/1 (patid 6376110); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:87:1272:1443#0/1 (patid 7302168); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:91:528:316#0/1 (patid 7608269); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:7:97:553:209#0/1 (patid 8115294); skipping read
+# reads processed: 8432368
+# reads with at least one reported alignment: 7611508 (90.27%)
+# reads that failed to align: 820860 (9.73%)
+Reported 7611508 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19210_argonne.1302447449.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19210_argonne.1302447449.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19210_argonne.1302447449.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19210_argonne.1302447449.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19210_argonne.1302447449.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19222_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19222_argonne.1302447825.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:3:29:1759:162#0/1 (patid 2658295); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:3:44:410:490#0/1 (patid 3799731); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:3:74:1758:578#0/1 (patid 5816765); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:3:75:1723:1667#0/1 (patid 5907113); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:3:98:327:1116#0/1 (patid 7970435); skipping read
+# reads processed: 8249437
+# reads with at least one reported alignment: 7277694 (88.22%)
+# reads that failed to align: 971743 (11.78%)
+Reported 7277694 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19222_argonne.1302447825.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19222_argonne.1302447825.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19222_argonne.1302447825.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19222_argonne.1302447825.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19222_argonne.1302447825.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19225_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19225_argonne.1302448212.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:35:371:1220#0/1 (patid 3138064); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:2:69:415:1292#0/1 (patid 6055048); skipping read
+# reads processed: 8448726
+# reads with at least one reported alignment: 7232275 (85.60%)
+# reads that failed to align: 1216451 (14.40%)
+Reported 7232275 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19225_argonne.1302448212.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19225_argonne.1302448212.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19225_argonne.1302448212.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19225_argonne.1302448212.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19225_argonne.1302448212.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19238_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19238_argonne.1302448622.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:1:15:1571:375#0/1 (patid 1083683); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:1:26:1066:466#0/1 (patid 1882242); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:1:35:1564:1066#0/1 (patid 2508491); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:1:57:96:1701#0/1 (patid 4118791); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:1:89:489:596#0/1 (patid 6413975); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:1:100:1389:1301#0/1 (patid 7197316); skipping read
+# reads processed: 7218325
+# reads with at least one reported alignment: 6426869 (89.04%)
+# reads that failed to align: 791456 (10.96%)
+Reported 6426869 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19238_argonne.1302448622.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19238_argonne.1302448622.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19238_argonne.1302448622.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19238_argonne.1302448622.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19238_argonne.1302448622.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19239_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19239_argonne.1302448969.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:6:1121:562#0/1 (patid 416568); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:6:1175:624#0/1 (patid 419051); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:22:650:1380#0/1 (patid 1651620); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:26:1626:1964#0/1 (patid 2029886); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:31:496:881#0/1 (patid 2360188); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:40:1088:850#0/1 (patid 3086384); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:43:828:1664#0/1 (patid 3331274); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:46:295:892#0/1 (patid 3562242); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:53:749:1819#0/1 (patid 4141785); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:54:1077:1351#0/1 (patid 4235902); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:55:510:312#0/1 (patid 4287805); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:74:490:106#0/1 (patid 5760726); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:97:816:403#0/1 (patid 7462458); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:98:1691:788#0/1 (patid 7581471); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS279:2:99:752:1202#0/1 (patid 7608929); skipping read
+# reads processed: 7738999
+# reads with at least one reported alignment: 6889613 (89.02%)
+# reads that failed to align: 849386 (10.98%)
+Reported 6889613 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19239_argonne.1302448969.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19239_argonne.1302448969.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19239_argonne.1302448969.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19239_argonne.1302448969.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19239_argonne.1302448969.sorted.bam
+bowtie --best -l 24 -e 170 /Volumes/Macintosh\ HD/Splice/Genomes/indexes/hg18.masked /Volumes/Macintosh\ HD/Splice/Data/HapMap/Argonne/NA19257_argonne.fastq -p 6 -S /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19257_argonne.1302449336.sam
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:1:2:1226:241#0/1 (patid 152037); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:1:12:1700:494#0/1 (patid 1062043); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:1:52:1470:1870#0/1 (patid 4150873); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:1:89:959:576#0/1 (patid 7216410); skipping read
+Warning: Exhausted best-first chunk memory for read HWI-EAS146:1:98:1671:1322#0/1 (patid 8091427); skipping read
+# reads processed: 8287438
+# reads with at least one reported alignment: 7184540 (86.69%)
+# reads that failed to align: 1102898 (13.31%)
+Reported 7184540 alignments to 1 output stream(s)
+samtools view -bSo /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19257_argonne.1302449336.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19257_argonne.1302449336.sam
+[samopen] SAM header is present: 25 sequences.
+samtools sort /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19257_argonne.1302449336.bam /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19257_argonne.1302449336.sorted
+[bam_sort_core] merging from 3 files...
+samtools index /Volumes/Macintosh\ HD/Splice/Alignments/hg18/Argonne/NA19257_argonne.1302449336.sorted.bam
