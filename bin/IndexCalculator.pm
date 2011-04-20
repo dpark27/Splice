@@ -9,7 +9,6 @@ use Getopt::Long;
 use Bio::DB::Sam;
 
 require BEDParser;
-require RPKMCalculator;
 
 sub new {
 	my $class = shift;
@@ -54,14 +53,14 @@ sub calculate_indexes {
 	my $median_exon_read_depth = $self -> median(\@exon_depths);
 
 	print "Calculating all depths\n";	
-	my $gene_start = $bed_values{ -genebegin };
-	my $gene_stop = $bed_values{ -geneend };
+	my $gene_start = $bed_values{ -genebegin } - 200;
+	my $gene_stop = $bed_values{ -geneend } + 200;
 	my $all_depths_ref = $self -> read_depths($sam, $chr, $gene_start, $gene_stop);
 	my @all_depths = @$all_depths_ref;
 
 	my @indexes = ();
 	foreach my $depth(@all_depths) {
-		my $index = $depth;
+		my $index = 0;
 		if($median_exon_read_depth) {
 			$index = ($depth / $median_exon_read_depth);
 		}
@@ -111,10 +110,11 @@ sub unique {
 sub read_depths {
 	my $self = shift;
 	my ($sam, $chr, $start, $end) = @_;
-	
-	my ($coverage) = $sam -> features(-type => 'coverage', -seq_id => $chr, -start => $start,  -end => $end); 
+
+	my $segment = $sam -> segment($chr, $start=>$end);
+	my ($coverage) = $segment -> features('coverage');
 	my @data_points = $coverage -> coverage;
-	
+		
 	my $size = @data_points;
 	if($size != $end - $start + 1) {
 		my $index = 0;
